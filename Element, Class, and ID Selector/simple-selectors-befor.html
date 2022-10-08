@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple Selectors</title>
+	<style>
+
+		/* all h2 elements */
+		h2 {
+			color: red;
+			text-align: center;
+		}
+
+		/* all with class="highlight" */
+		.highlight {
+			font-size: 20px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: green;
+			opacity: .6;
+		}
+
+		/* element with id="mainPoint" */
+		#mainPoint {
+			font-size: 24px;
+			font-weight: bold;
+			background-color: red;
+			opacity: .7;
+		}
+
+		/* all p AND h1 elements */
+		p, h1 {
+			color: blue;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Anatomy of a CSS Rules</h1>
+	<h2>Subheading 1</h2>
+	<p class="highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+	<p class="highlight">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	<h2>Subheading 2</h2>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	<div>This is the main point of the entire article. So, attribute
+	<span id="mainPoint">id="mainPoint".</span>
+	</div>
+</body>
+</html>
