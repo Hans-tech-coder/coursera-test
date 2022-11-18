@@ -34,7 +34,7 @@ else {
   console.log("Strict: x='4' is NOT equal to y=4");
 } */
 
-// ***** If statement (all false)
+/* // ***** If statement (all false)
 if ( false || null || undefined || "" || 0 || NaN) {
   console.log("This line won't ever execute");
 }
@@ -45,4 +45,31 @@ else {
 // ***** If statement (all true)
 if (true && "hello" && 1 && -1 && "false") {
   console.log("All true");
+} */
+
+// ***** Best practice for {} style
+// Curly brace on the same or next line..
+// Is it just a style?
+// function a()
+// {
+//   return
+//   {
+//     name: "Yaakov"
+//   };
+// }
+
+// function b() {
+//   return {
+//     name: "Yaakov"
+//   };
+// }
+
+// console.log(a());
+// console.log(b());
+
+// ***** For loop
+var sum = 0;
+for (var i = 0; i < 10; i++) {
+  sum = sum + i;
 }
+console.log("sum of 0 through 9 is: " + sum);
