@@ -15,7 +15,7 @@ test1(); */
 
 
 
-// ***** Equality
+/* // ***** Equality
 var x = 4, y = 4;
 if (x == y) {
   console.log("x=4 is equal to y=4");
@@ -32,4 +32,17 @@ if (x === y) {
 }
 else {
   console.log("Strict: x='4' is NOT equal to y=4");
+} */
+
+// ***** If statement (all false)
+if ( false || null || undefined || "" || 0 || NaN) {
+  console.log("This line won't ever execute");
+}
+else {
+  console.log ("All false");
+}
+
+// ***** If statement (all true)
+if (true && "hello" && 1 && -1 && "false") {
+  console.log("All true");
 }
